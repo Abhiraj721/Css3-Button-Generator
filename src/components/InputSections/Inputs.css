@@ -1,0 +1,92 @@
+.fonttextsection
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.bordersection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .inputcouple {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10px;
+  }
+  
+  .inputcouple label {
+    margin-right: 10px;
+  }
+  
+  .inputcouple input[type="range"],
+  .inputcouple input[type="color"],
+  .inputcouple select {
+    width: 120px;
+  }
+label{
+    margin-right: 7px;
+}
+.toggle{
+    position: relative;
+    right:12%
+}
+
+input[type="range"] {
+  width: 50%;
+  appearance: none;
+  background: #fbd4d4;
+  height: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #b384ff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.value-display {
+  text-align: center;
+  margin-top: 10px;
+}
+input:disabled {
+
+    background-color: #5d5d5d;
+    color: #7d7d7d;
+    border: 1px solid #dddddd;
+    cursor: not-allowed;
+  }
+.paddingcheck{
+  position: relative;
+  top: 34px;
+  right:26%;
+    
+
+}
+@media (max-width: 768px) {
+    .paddingcheck
+        {
+            right:38%;
+    }
+  }
